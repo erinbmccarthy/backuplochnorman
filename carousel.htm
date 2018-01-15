@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Carousel</title>	
+<link rel="stylesheet" type="text/css" href="scripts/carousel.css">
+</head>
+<body>
+<div id="slide_holder"><img class="loading" src="images/ajax_loader.gif" alt="" width="100" height="100"></div>
+<!-- slide_holder -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.2/jquery-ui.min.js"></script>
+<script src="scripts/carousel_behavior_min.js"></script>
+<script type="text/javascript">
+	
+ $('#slide_holder').agile_carousel({
+	first_last_buttons: "no",
+    hover_next_prev_buttons: "no",
+    next_prev_buttons: "no",
+	path_to_slides: "agile_carousel_slides",
+    pause_button: "no",
+    slide_buttons: "no", 
+    slide_directory: "agile_carousel_slides", // must contain the phrase "agile_carousel"
+ 	slide_links: "http://www.ruralhillscottishfestivals.net,https://www.eventbrite.com/e/2017-loch-norman-highland-games-scottish-breakfast-tickets-32330854456,http://www.ruralhillscottishfestivals.net,https://www.eventbrite.com/e/2017-loch-norman-highland-games-whisky-tasting-tickets-32302393328,http://www.ruralhillscottishfestivals.net,http://www.ruralhillscottishfestivals.net/Vendors.asp,http://www.ruralhillscottishfestivals.net,http://www.ruralhillscottishfestivals.net,http://www.ruralhillscottishfestivals.net,http://www.ruralhillscottishfestivals.net",
+	target_attributes: "_top,_top,_top,_top,_top,_top,_top",
+	php_doc_location: "make_slides.php",
+    slide_number_display: "no",
+    timer_length: "5000",
+	transition_duration: 1000,
+	transition_easing: "easeOutBack",	
+    transition_type: "fade",
+	water_mark: "no"
+	 });
+
+</script>	
+</body>
+</html>

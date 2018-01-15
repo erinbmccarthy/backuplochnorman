@@ -1,0 +1,1 @@
+$(document).ready(function(){ window.Lightbox = new $.visualLightbox({autoPlay:true,borderSize:16,classNames:'vlightbox1',descSliding:true,enableRightClick:false,enableSlideshow:true,resizeSpeed:7,slideTime:4,startZoom:true}) });

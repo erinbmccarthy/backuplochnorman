@@ -1,0 +1,26 @@
+body {
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	font:14px  Arial, Helvetica, sans-serif;
+	color:#000000;
+	background: #e1edbb url(images/bgMain.jpg) top repeat-x;
+}
+
+a img {
+	border: none;
+}
+
+
+
+h1, h2, h3, a {
+	color: #861B1C
+}
+
+h1 {
+	font-size:32px;
+	line-height: 36px;
+}
+
+.redText {
+	color: #861B1C
+}
